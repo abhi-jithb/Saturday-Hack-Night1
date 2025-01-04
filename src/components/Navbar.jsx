@@ -9,17 +9,17 @@ const Navbar = () => {
       animate={{ y: 0 }}
       transition={{ duration: 0.8 }}
     >
-      <div className="flex justify-between items-center text-white">
+      <div className="flex absolute justify-between items-center text-white">
         <motion.img
-          src="/logo.jpg"
+          src="/favicon.ico"
           alt="OrbitHub Logo"
           className="w-12 h-12"
           whileHover={{ scale: 1.05 }}
           transition={{ duration: 0.3 }}
         />
         <div className="space-x-4">
-          <a href="#home" className="hover:no-underline">Home</a>
-          <a href="#about" className="hover:no-underline">About</a>
+          {/* <a href="#home" className="hover:no-underline">Home</a>
+          <a href="#about" className="hover:no-underline">About</a> */}
         </div>
       </div>
     </motion.nav>
