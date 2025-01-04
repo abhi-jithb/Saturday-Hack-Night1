@@ -5,12 +5,12 @@ import Loader from "../components/Loader";
 import NewsCard from "../components/NewsCard";
 import SpaceBackground from "../components/SpaceBackground";
 import HeroBackground from "../components/HeroBackground";
-require('dotenv').config();
-const apiKey = process.env.NASA_API_KEY;
 
 const Home = () => {
   const [news, setNews] = useState([]);
   const [loading, setLoading] = useState(true);
+
+  const apiKey = process.env.REACT_APP_NASA_API_KEY;
 
   useEffect(() => {
     const fetchNews = async () => {
