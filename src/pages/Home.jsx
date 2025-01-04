@@ -5,6 +5,8 @@ import Loader from "../components/Loader";
 import NewsCard from "../components/NewsCard";
 import SpaceBackground from "../components/SpaceBackground";
 import HeroBackground from "../components/HeroBackground";
+require('dotenv').config();
+const apiKey = process.env.NASA_API_KEY;
 
 const Home = () => {
   const [news, setNews] = useState([]);
@@ -13,7 +15,7 @@ const Home = () => {
   useEffect(() => {
     const fetchNews = async () => {
       try {
-        const response = await fetch("https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&count=10");
+        const response = await fetch(`https://api.nasa.gov/planetary/apod?api_key=${apiKey}&count=10`);
         const data = await response.json();
         setNews(data.map((item) => ({
           title: item.title,

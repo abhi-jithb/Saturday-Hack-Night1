@@ -24,9 +24,9 @@ const NewsCard = ({ title, description, url, image }) => {
       <div className="p-4">
         <h3 className="font-bold text-xl mb-2">{title}</h3>
         <p className="text-gray-400 mb-4">{description.slice(0, 100)}...</p>
-        <a href={url} target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">
+        <p  target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">
           Read more
-        </a>
+        </p>
       </div>
     </motion.div>
   );

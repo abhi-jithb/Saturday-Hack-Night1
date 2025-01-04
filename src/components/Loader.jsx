@@ -2,8 +2,14 @@ import React from "react";
 
 const Loader = () => {
   return (
-    <div className="flex items-center justify-center min-h-screen bg-dark">
-      <div className="animate-spin rounded-full h-12 w-12 border-t-4 border-blue-500"></div>
+    <div className="flex items-center justify-center min-h-screen bg-dark relative">
+      <video
+        className="w-64 h-64 object-cover rounded-lg shadow-lg opacity-80 transition-opacity duration-500 ease-in-out"
+        src="/loadingvideo.mp4"
+        autoPlay
+        loop
+        muted
+      ></video>
     </div>
   );
 };

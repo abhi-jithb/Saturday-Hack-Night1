@@ -10,7 +10,13 @@ const Navbar = () => {
       transition={{ duration: 0.8 }}
     >
       <div className="flex justify-between items-center text-white">
-        <h1 className="text-2xl font-bold">OrbitHub</h1>
+        <motion.img
+          src="/logo.jpg"
+          alt="OrbitHub Logo"
+          className="w-12 h-12"
+          whileHover={{ scale: 1.05 }}
+          transition={{ duration: 0.3 }}
+        />
         <div className="space-x-4">
           <a href="#home" className="hover:no-underline">Home</a>
           <a href="#about" className="hover:no-underline">About</a>
