@@ -40,7 +40,7 @@ const Home = () => {
       ) : (
         <>
           <HeroBackground />
-          <div className="px-6 py-10 grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="relative px-6 py-10 grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
             {news.map((article, index) => (
               <NewsCard key={index} {...article} />
             ))}

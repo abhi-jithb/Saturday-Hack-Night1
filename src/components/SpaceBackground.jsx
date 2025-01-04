@@ -12,7 +12,7 @@ const SpaceBackground = () => {
   };
 
   return (
-    <div className="absolute inset-0 overflow-hidden bg-dark">
+    <div className="absolute inset-0  bg-dark">
       {[...Array(50)].map((_, i) => (
         <motion.div
           key={i}
