@@ -17,7 +17,7 @@ Our focus on **design-first principles** ensures that functionality doesn’t co
 
 ## Team Members
 1. [Abhijith B](https://github.com/abhi-jithb)
-2. [Ali Aslam](https://github.com/aislam)
+2. [Ali Aslam](https://github.com/Aiaslam)
 
 ## Link to Product Walkthrough
 [Watch the demo video here](https://drive.google.com/file/d/1lanmFxs771LmLSVJsGbIMe_QQqt9Cl3P/view?usp=drivesdk )
