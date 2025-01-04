@@ -10,10 +10,10 @@ const Navbar = () => {
       transition={{ duration: 0.8 }}
     >
       <div className="flex justify-between items-center text-white">
-        <h1 className="text-2xl font-bold">NASA News</h1>
+        <h1 className="text-2xl font-bold">OrbitHub</h1>
         <div className="space-x-4">
-          <a href="#home" className="hover:underline">Home</a>
-          <a href="#about" className="hover:underline">About</a>
+          <a href="#home" className="hover:no-underline">Home</a>
+          <a href="#about" className="hover:no-underline">About</a>
         </div>
       </div>
     </motion.nav>
