@@ -5,7 +5,7 @@ import Loader from "../components/Loader";
 import NewsCard from "../components/NewsCard";
 import SpaceBackground from "../components/SpaceBackground";
 import HeroBackground from "../components/HeroBackground";
-require('dotenv').config();
+
 const apiKey = process.env.NASA_API_KEY;
 
 const Home = () => {
