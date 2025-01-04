@@ -46,7 +46,7 @@ Here are some glimpses of **OrbitHub**:
 ## How to Configure
 1. Clone the repository:
    ```bash
-   git clone https://github.com/YourRepoName/NASA-News-Aggregator.git
+   https://github.com/abhi-jithb/Saturday-Hack-Night1.git
    ```
 
 2. Navigate to the project folder:
