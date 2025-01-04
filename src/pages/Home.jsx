@@ -5,7 +5,10 @@ import Loader from "../components/Loader";
 import NewsCard from "../components/NewsCard";
 import SpaceBackground from "../components/SpaceBackground";
 import HeroBackground from "../components/HeroBackground";
+<<<<<<< HEAD
 
+=======
+>>>>>>> f1227162bbfb8577c4e394c596c07856153d140b
 const apiKey = process.env.NASA_API_KEY;
 
 const Home = () => {
